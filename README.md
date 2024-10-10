@@ -8,6 +8,7 @@
 
 #### ALL my models YOLOv10 for Valorant Object Detection
 - YOLOv10b: https://huggingface.co/jparedesDS/valorant-yolov10b
+- YOLO11m: https://huggingface.co/jparedesDS/valorant-yolo11m
 
 #### How to use
 ```
