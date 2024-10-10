@@ -6,9 +6,12 @@
 - YOLOv10m: https://huggingface.co/jparedesDS/cs2-yolov10m
 - YOLOv10b: https://huggingface.co/jparedesDS/cs2-yolov10b
 
-#### ALL my models YOLOv10 for Valorant Object Detection
+#### ALL my models YOLOv10 & YOLO11 for Valorant Object Detection
 - YOLOv10b: https://huggingface.co/jparedesDS/valorant-yolov10b
 - YOLO11m: https://huggingface.co/jparedesDS/valorant-yolo11m
+  
+#### ALL my models YOLO11 for Deadlock Object Detection
+- YOLO11l: https://huggingface.co/jparedesDS/deadlock-yolo11l
 
 #### How to use
 ```
