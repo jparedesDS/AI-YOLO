@@ -12,6 +12,10 @@
   
 #### ALL my models YOLO11 for Deadlock Object Detection
 - YOLO11l: https://huggingface.co/jparedesDS/deadlock-yolo11l
+  
+#### ALL my models YOLO11 for Metallurgical Companies
+- YOLO11l: https://huggingface.co/jparedesDS/fluorescent-penetrant-inspection
+- YOLO11x: https://huggingface.co/jparedesDS/welding-defects-detection
 
 #### How to use
 ```
