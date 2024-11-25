@@ -9,7 +9,6 @@
 - YOLOv10s: https://huggingface.co/jparedesDS/cs2-yolov10s
 - YOLOv10m: https://huggingface.co/jparedesDS/cs2-yolov10m
 - YOLOv10b: https://huggingface.co/jparedesDS/cs2-yolov10b
-- 
 
 #### ALL my models YOLOv10 & YOLO11 for Valorant Object Detection
 - YOLOv10b: https://huggingface.co/jparedesDS/valorant-yolov10b
