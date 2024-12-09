@@ -7,7 +7,8 @@
 - [Counter-Strike 2 Object Detection](#counter-strike-2-object-detection)  
 - [Valorant Object Detection](#valorant-object-detection)  
 - [Deadlock Object Detection](#deadlock-object-detection)  
-- [Overwatch 2 Object Detection](#overwatch-2-object-detection)  
+- [Overwatch 2 Object Detection](#overwatch-2-object-detection)
+- [Fortnite Object Detection](#fortnite-object-detection) 
 - [How to Use the Models](#how-to-use-the-models)  
 - [All Models](#all-models)  
 
@@ -60,6 +61,13 @@ Custom YOLO models for detecting objects in **Deadlock**.
 Advanced object detection for Overwatch 2.  
 
 - **YOLO11m**: [Hugging Face Link](https://huggingface.co/jparedesDS/ow2-yolo11m)  
+
+---
+
+## Fortnite Object Detection  
+Advanced object detection for Fortnite.  
+
+- **YOLO11m**: [Hugging Face Link](https://huggingface.co/jparedesDS/fortnite-yolo11m)
 
 ---
 
