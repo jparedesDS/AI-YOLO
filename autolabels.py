@@ -1,24 +1,23 @@
 import os
 import shutil
-
 import cv2
 import numpy as np
 from pathlib import Path
 from ultralytics import YOLO
 
 # Cargar tu propio modelo YOLO
-model = YOLO('models/cs2_cv-woacm-noparams-yolo10m-1200epoch.pt')  # Reemplaza con tu modelo
+model = YOLO('cs2-cv-yolo11l-1200epoch.pt')  # Reemplaza con tu modelo
 
 # Ruta a las imágenes no etiquetadas:
-directorio_imagenes = 'the_dataset/data2/valid/images'
+directorio_imagenes = 'data-tf2/train/images'
 # Directorio de salida para imágenes con nuevos labels
-directorio_salida = 'the_dataset/data2/valid/labels'
+directorio_salida = 'data-tf2/train/labels'
 os.makedirs(directorio_salida, exist_ok=True)
 # Directorio de salida para imágenes sin labels
-directorio_sin_labels = 'the_dataset/data2/valid/images_SINLABELS'
+directorio_sin_labels = 'data-tf2/train/images_SINLABELS'
 os.makedirs(directorio_sin_labels, exist_ok=True)
 # Directorio de salida para etiquetas vacías
-directorio_labels_sin_labels = 'the_dataset/data2/valid/labels_SINLABELS'
+directorio_labels_sin_labels = 'data-tf2/train/labels_SINLABELS'
 os.makedirs(directorio_labels_sin_labels, exist_ok=True)
 
 # Función para guardar las pseudo-labels en formato YOLO
@@ -26,7 +25,7 @@ def guardar_labels_yolo(imagen, predicciones, directorio_salida):
     nombre_imagen = Path(imagen).stem
     with open(f"{directorio_salida}/{nombre_imagen}.txt", 'w') as f:
         for x1, y1, x2, y2, conf, clase in predicciones:
-            if conf > 0.6:  # Solo guardar predicciones con alta confianza
+            if conf > 0.52:  # Solo guardar predicciones con alta confianza
                 # Convertir las coordenadas a formato YOLO (normalizado)
                 x_centro = (x1 + x2) / 2.0
                 y_centro = (y1 + y2) / 2.0
