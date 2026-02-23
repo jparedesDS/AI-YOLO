@@ -97,3 +97,20 @@ If you'd like to contribute, feel free to open an issue or submit a pull request
 
 ## License
 This repository is licensed under the MIT License. See the LICENSE file for details.
+
+## ❤️ Why buy me a coffee?
+
+If any of my repositories have been useful to you, saved you time, or inspired you in any way, you can support my work by buying me a coffee ☕
+Your support helps me to:
+
+Keep projects maintained and improved
+
+Create new open source repositories
+
+Spend more time documenting and explaining the code
+
+👉 Buy me a coffee here:
+
+<a href="https://buymeacoffee.com/joseparedes" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200"/>
+</a>
